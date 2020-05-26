@@ -76,9 +76,5 @@ spec:
           name: sys
         - 
           hostPath: 
-            path: /var/lib/docker
-          name: docker
-        - 
-          hostPath: 
             path: /dev/disk
           name: disk

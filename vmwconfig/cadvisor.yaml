@@ -1,9 +1,7 @@
 --- 
 apiVersion: apps/v1
 kind: DaemonSet
-metadata: 
-  annotations: 
-    seccomp.security.alpha.kubernetes.io/pod: docker/default
+metadata:
   labels: 
     app: cadvisor
   name: cadvisor
